@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ex="http://example.org/ncd#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/ncd#ChestPain">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#hasSymptom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://example.org/ncd#Disease"/>
+    <rdfs:range rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Asthma">
+    <rdf:type rdf:resource="http://example.org/ncd#Disease"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#ShortnessOfBreath"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Wheezing"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#ChestTightness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#FrequentUrination">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#COPD">
+    <rdf:type rdf:resource="http://example.org/ncd#Disease"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#ChronicCough"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#ShortnessOfBreath"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Wheezing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Cancer">
+    <rdf:type rdf:resource="http://example.org/ncd#Disease"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#WeightLoss"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Fatigue"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Pain"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#SkinChanges"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#ChronicCough">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Hypertension">
+    <rdf:type rdf:resource="http://example.org/ncd#Disease"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Headaches"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Dizziness"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Nosebleeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#ChestTightness">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Wheezing">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#SkinChanges">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Diabetes">
+    <rdf:type rdf:resource="http://example.org/ncd#Disease"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Fatigue"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#ExcessiveThirst"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#FrequentUrination"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Headaches">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#ExcessiveThirst">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Dizziness">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#CardiovascularDisease">
+    <rdf:type rdf:resource="http://example.org/ncd#Disease"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#ChestPain"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#Fatigue"/>
+    <ex:hasSymptom rdf:resource="http://example.org/ncd#IrregularHeartbeat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#WeightLoss">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Pain">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Fatigue">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Disease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#IrregularHeartbeat">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#ShortnessOfBreath">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Nosebleeds">
+    <rdf:type rdf:resource="http://example.org/ncd#Symptom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/ncd#Symptom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
