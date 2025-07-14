@@ -30,6 +30,8 @@ This project utilizes an OWL ontology to support Non-Communicable Disease (NCD) 
 - Web server (e.g., Flask)  for frontend/backend interaction
 - OWL reasoner (e.g., HermiT, Pellet) or SPARQL endpoint (optional)
 
+•	(command to run if using VS code editor… streamlit run ncd_symptoms.py )
+
 ## 📦 Install Dependencies (Python Example)
 
 If you're using a Python Flask backend with RDFLib:
