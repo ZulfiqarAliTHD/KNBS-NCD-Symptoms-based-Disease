@@ -2,6 +2,8 @@
 Zulfiqar Ali
 Course: knowledge Based symptoms- Masters in Global Public Health
 Enrollment No#  22402092
+
+
 Ontology-Driven Symptom-to- NCD Disease Inference Web Tool to support symptom-based disease prediction for Non-Communicable Diseases (NCDs).# Symptom-to-Disease Ontology Web System
 
 This project utilizes an OWL ontology to support Non-Communicable Disease (NCD) detection based on user-input symptoms. The ontology models relationships between diseases and their symptoms, enabling semantic reasoning through a web interface.
