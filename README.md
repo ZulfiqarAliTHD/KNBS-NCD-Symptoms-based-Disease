@@ -1,4 +1,7 @@
 # KNBS-NCD-Symptoms-based-Disease
+Zulfiqar Ali
+Course: knowledge Based symptoms- Masters in Global Public Health
+Enrollment No#  22402092
 Ontology-Driven Symptom-to- NCD Disease Inference Web Tool to support symptom-based disease prediction for Non-Communicable Diseases (NCDs).# Symptom-to-Disease Ontology Web System
 
 This project utilizes an OWL ontology to support Non-Communicable Disease (NCD) detection based on user-input symptoms. The ontology models relationships between diseases and their symptoms, enabling semantic reasoning through a web interface.
@@ -15,8 +18,8 @@ This project utilizes an OWL ontology to support Non-Communicable Disease (NCD) 
   #Running the app-
   -streamlit run ncd_symptoms.py
   -links
-     +Local URL: http://localhost:8502
-     +Network URL: http://192.168.178.48:8502
+     + Local URL: http://localhost:8501
+     + Network URL: http://192.168.178.48:8501
   ## 🛠️ Requirements
 
 - Python 3.8+
